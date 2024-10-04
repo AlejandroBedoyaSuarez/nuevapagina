@@ -14,7 +14,7 @@ p{
     font-size: 15px;
     color: blue;
 }
-/* Se crea clase .parrafo donde se modifica todo dentro de esta clase */
+/* Se crea clase .parrafo donde se modifica todo dentro de esta clase .*/
 .parrafo{
     color: black;
     font-size: 20px;
