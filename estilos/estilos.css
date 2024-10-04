@@ -1,8 +1,10 @@
+/* Esta etiqueta sirve para dar estilo a todo el body*/
 body{
     margin-top:200px;
     margin-left: 100px;
     color: brown;
 }
+/* Esta etiqueta sirve para que todo el h1 tenga este estilo */
 h1{
     color: red;
     font-size: 50px;
@@ -12,38 +14,46 @@ p{
     font-size: 15px;
     color: blue;
 }
+/* Se crea clase .parrafo donde se modifica todo dentro de esta clase */
 .parrafo{
     color: black;
     font-size: 20px;
     text-align: left;
 }
+/* Se crea clase .contenedor donde se modifica todo dentro de esta clase */
 #contenedor{
     color: green;
     font-size: 25px;
     text-align: center;
 }
+/* el * sirve para poner todo el documento de el estilo configurado */
 *{
     margin: 10px;
     font-size: 15px;
     color: black;
     background-color: green;
 }
+/* Esta etiqueta sirve para que todo el "div" tenga este estilo */
 div{
     width: 100%;
     border: 1px solid;
 }
+/* Se crea clase .logo donde se modifica todo dentro de esta clase */
 .logo{
     width: 50%;
     border: 1px solid red;
 }
+/* Se crea clase .menu donde se modifica todo dentro de esta clase */
 .menu{
     width: 50%;
     border: 1px solid red;
 }
+/* Esta etiqueta sirve para que todo el "a" tenga este estilo */
 a{
     text-decoration: dotted;
     color: white;
 }
+/* Esta conjunto de etiquetas va en orden. Empieza revisando etiqueta ul, luego a, li*/
 ul,a,li{
     text-decoration: none;
     color: aqua;
